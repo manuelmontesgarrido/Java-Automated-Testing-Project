@@ -50,14 +50,6 @@
   "Event graphs": {
     "GetFieldBy": "xpath",
     "ValueToFind": "//b[contains(text(),'Event graphs')]"
-  },
-  "Manage agents": {
-    "GetFieldBy": "xpath",
-    "ValueToFind": "//body/div[@id='container']/div[@id='page']/div[@id='menu']/div[@id='menu_full']/div[3]/ul[1]/li[2]/ul[1]/li[1]/a[1]/div[1]"
-  },
-  "Delete agent button": {
-    "GetFieldBy": "xpath",
-    "ValueToFind": "//tbody/tr[5]/td[7]/a[2]/img[1]"
   }
 }
 
