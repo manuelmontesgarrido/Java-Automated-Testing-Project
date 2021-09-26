@@ -1,0 +1,64 @@
+{
+  "login nick": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//input[@id='nick']"
+  },
+  "login password": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//input[@id='pass']"
+  },
+  "login button": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//input[@id='submit-login_button']"
+  },
+  "monitoring": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[contains(text(),'Monitoring')]"
+  },
+  "Reporting": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[contains(text(),'Reporting')]"
+  },
+  "Custom Reports": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[contains(text(),'Custom reports')]"
+  },
+  "group select": {
+  "GetFieldBy": "xpath",
+  "ValueToFind": "//span[@id='select2-id_group-container']"
+  },
+  "first report": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"report_list-0-0\"]/a"
+  },
+  "Group": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"id_group\"]"
+  },
+  "App": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//body/div[@id='container']/div[@id='head']/div[@id='header_table']/div[@id='header_table_inner']/div[1]/span[1]"
+  },
+  "Tactical view": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[contains(text(),'Tactical view')]"
+  },
+  "Tactical view header": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[contains(text(),'Tactical view')]"
+  },
+  "Event graphs": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//b[contains(text(),'Event graphs')]"
+  },
+  "Manage agents": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//body/div[@id='container']/div[@id='page']/div[@id='menu']/div[@id='menu_full']/div[3]/ul[1]/li[2]/ul[1]/li[1]/a[1]/div[1]"
+  },
+  "Delete agent button": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//tbody/tr[5]/td[7]/a[2]/img[1]"
+  }
+}
+
+
