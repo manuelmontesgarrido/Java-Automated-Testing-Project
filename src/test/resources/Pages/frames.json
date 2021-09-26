@@ -1,49 +1,22 @@
 {
-    "Titulo": {
+  "Google search input": {
     "GetFieldBy": "Xpath",
-    "ValueToFind": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/ol[1]/li[1]/h1[1]"
+    "ValueToFind": "//body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]"
   },
-
-  "Frame2": {
-    "GetFieldBy": "id",
-    "ValueToFind": "frame2"
-  },
-
-    "Frame2 Select": {
+  "Google search button": {
     "GetFieldBy": "Xpath",
-    "ValueToFind": "//select[@id='animals']"
+    "ValueToFind": "//body/div[1]/div[3]/form[1]/div[1]/div[1]/div[3]/center[1]/input[1]"
   },
-
-  "Frame1": {
+  "Link to Github documentation": {
     "GetFieldBy": "Xpath",
-    "ValueToFind": "//iframe[@id='frame1']"
+    "ValueToFind": "/html/body/div[7]/div/div[9]/div[1]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div/div[1]/div/div/div/div[2]/div/div[3]/div/div/div[1]/a/h3"
   },
-
-  "Frame1 input": {
+  "Github logo": {
     "GetFieldBy": "Xpath",
-    "ValueToFind": "/html[1]/body[1]/input[1]"
+    "ValueToFind": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/a[2]"
   },
-
-  "Frame3": {
+  "Accept cookies": {
     "GetFieldBy": "Xpath",
-    "ValueToFind": "//iframe[@id='frame3']"
-  },
-
-  "Frame3 input": {
-    "GetFieldBy": "Xpath",
-    "ValueToFind": "//input[@id='a']"
-  },
-
-  "Frame4 Alerta": {
-    "GetFieldBy": "id",
-    "ValueToFind": "iframeResult"
-  },
-
-  "Alert": {
-    "GetFieldBy": "Xpath",
-    "ValueToFind": "/html[1]/body[1]/button[1]"
+    "ValueToFind": "/html/body/div[2]/div[2]/div[3]/span/div/div/div[3]/button[2]/div"
   }
-
-
-
 }

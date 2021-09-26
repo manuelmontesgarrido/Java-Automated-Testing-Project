@@ -9,7 +9,7 @@ Feature: Ejemplo de creacion de una Feature
     # En ocasiones nos encontramos con que repetimos los mismos pasos en todos los escenarios de la feature
     # En esta situación se pueden mover estos steps a un Background, y se ejecutará al inicio de cada escenario
 
-    #Open the driver, insert the specified url and login to pandora
+    #Open the driver, insert the specified url and login to App
     Given I am in App main site
     # El paso Given o "Dado que..." se utiliza para describir el contexto inicial del sistema.
     # Su proposito es poner el sistema en un estado conocido desde que el usuario comience a interactuar
@@ -43,8 +43,8 @@ Feature: Ejemplo de creacion de una Feature
       # And
       # Cuando tenemos varios Given, When o Then sucesivos, para no repetirlos usamos el And.
 
-      And I click in JS element Manage agents
-      And I click in element Delete agent button
+      And I click in JS element Example element
+      And I click in element Example button
       And I wait 2 seconds
       Then I dismiss alert
       And I attach a Screenshot to Report: screenshot alert
